@@ -1,12 +1,12 @@
 {
-	"name": "Hidden E-mails",
+	"name": "Masked E-mails",
 	"version": "1.0.0",
-	"description": "This extension provides a possibility to generate hidden e-mails. E-mails are generated offline or online with webhook base on your preferences.",
+	"description": "This extension provides a possibility to generate masked e-mails. E-mails are generated offline or online with webhook base on your preferences.",
 	"manifest_version": 3,
 	"author": "Lukasz Sliwa",
 	"action": {
 		"default_popup": "index.html",
-		"default_title": "Hidden E-mails"
+		"default_title": "Masked E-mails"
 	},
 	"content_scripts": [{
 		"js": ["jquery.min.js", "main.js"],
