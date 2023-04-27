@@ -1,3 +1,4 @@
-.masked_emails_extension-icon {
-    background-image:url('chrome-extension://__MSG_@@extension_id__/icon16.png');
+.masked_emails_extension-message span {
+    font-size: 10px;
+    height: 35px !important;
 }

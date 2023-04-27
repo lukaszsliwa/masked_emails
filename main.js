@@ -19,6 +19,11 @@ function generate() {
             $temp.val($('#masked_emails_extension-email').text()).select();
             document.execCommand("copy");
             $temp.remove();
+
+            $('#masked_emails_extension-message span').show().html('Copied!').attr('style', 'opacity: 1').animate(
+                { opacity: ".1" }, 1000, function() {
+                $(this).hide();
+            });
         });
     });
 }
