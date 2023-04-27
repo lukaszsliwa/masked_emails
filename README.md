@@ -1,5 +1,4 @@
-![](hero.png "Photo by Marko Sellenriek")
-<font size="1">Photo by Marko Sellenriek from Unsplash</font>
+![](hero.png "Photo by Marko Sellenriek (Unsplash)")
 
 # ✉️ Masked Emails Offline Chrome Extension
 
