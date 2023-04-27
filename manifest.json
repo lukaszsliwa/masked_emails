@@ -1,7 +1,7 @@
 {
 	"name": "Masked E-mails",
 	"version": "1.0.0",
-	"description": "This extension provides a possibility to generate masked e-mails. E-mails are generated offline or online with webhook base on your preferences.",
+	"description": "Privacy first extension provides a possibility to generate masked e-mails. E-mails are generated offline.",
 	"manifest_version": 3,
 	"author": "Lukasz Sliwa",
 	"action": {
