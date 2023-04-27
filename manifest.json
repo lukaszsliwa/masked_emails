@@ -3,15 +3,11 @@
 	"version": "1.0.0",
 	"description": "Privacy first extension provides a possibility to generate offline masked e-mail in custom domain.",
 	"manifest_version": 3,
-	"author": "Lukasz Sliwa",
+	"author": "Łukasz Śliwa",
 	"action": {
 		"default_popup": "index.html",
 		"default_title": "Masked E-mails"
 	},
-	"content_scripts": [{
-		"css": ["main.css"],
-		"matches": ["http://*/*", "https://*/*"]
-	}],
 	"permissions": ["activeTab", "storage"],
 	"icons": {
 		"16": "icon16.png",
