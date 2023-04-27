@@ -1,7 +1,7 @@
 {
 	"name": "Masked E-mails",
 	"version": "1.0.0",
-	"description": "Privacy first extension provides a possibility to generate masked e-mails. E-mails are generated offline.",
+	"description": "Privacy first extension provides a possibility to generate offline masked e-mail in custom domain.",
 	"manifest_version": 3,
 	"author": "Lukasz Sliwa",
 	"action": {
@@ -9,7 +9,7 @@
 		"default_title": "Masked E-mails"
 	},
 	"content_scripts": [{
-		"js": ["jquery.min.js", "main.js"],
+		"css": ["main.css"],
 		"matches": ["http://*/*", "https://*/*"]
 	}],
 	"permissions": ["activeTab", "storage"],

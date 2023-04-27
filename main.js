@@ -11,12 +11,12 @@ function generate() {
 
         chrome.storage.local.get('currentDomain', function(result){
             var email = name + '.' + code + '@' + result['currentDomain'];
-            $('#email').html(email);
+            $('#masked_emails_extension-email').html(email);
             chrome.storage.local.set({ lastEmail: email });
 
             var $temp = $("<input>");
             $("body").append($temp);
-            $temp.val($('#email').text()).select();
+            $temp.val($('#masked_emails_extension-email').text()).select();
             document.execCommand("copy");
             $temp.remove();
         });
@@ -25,24 +25,29 @@ function generate() {
 
 $(function () {
    chrome.storage.local.get('lastEmail', function(result){
-       $('#email').val(result['lastEmail']);
+       $('#masked_emails_extension-email').val(result['lastEmail']);
    });
    chrome.storage.local.get('currentDomain', function(result){
-       $('#domain').val(result['currentDomain']);
+       $('#masked_emails_extension-domain').val(result['currentDomain']);
 
        if(result['currentDomain'] == '' || result['currentDomain'] == null) {
-           $('#app').remove();
+           $('#masked_emails_extension-app').remove();
        } else {
-           $('#intro').remove();
+           $('#masked_emails_extension-intro').remove();
        }
-   });
-   $('#btn-generate').on('click', function() {
-       generate();
-       return false;
-   });
-   generate();
 
-   $('#domain').on('keyup', function() {
-       chrome.storage.local.set({ currentDomain: $('#domain').val() });
+       $('#masked_emails_extension-btn-generate').on('click', function() {
+           generate();
+           return false;
+       });
+       generate();
+
+       $('#masked_emails_extension-domain').on('keyup', function() {
+           chrome.storage.local.set({ currentDomain: $('#masked_emails_extension-domain').val() });
+       });
+
+       $('input[type=email]').each(function(item, index) {
+           $(this).after('<a href="">mask</a>');
+       });
    });
 });
