@@ -12,5 +12,12 @@
 		"js": ["jquery.min.js", "main.js"],
 		"matches": ["http://*/*", "https://*/*"]
 	}],
-	"permissions": ["activeTab", "storage"]
+	"permissions": ["activeTab", "storage"],
+	"icons": {
+		"16": "icon16.png",
+		"24": "icon24.png",
+		"32": "icon32.png",
+		"64": "icon64.png",
+		"128": "icon128.png"
+	}
 }
