@@ -13,13 +13,13 @@ function generate() {
             var email = name + '.' + code + '@' + result['currentDomain'];
             $('#email').html(email);
             chrome.storage.local.set({ lastEmail: email });
-        });
 
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val($('#email').text()).select();
-        document.execCommand("copy");
-        $temp.remove();
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($('#email').text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        });
     });
 }
 
