@@ -1,11 +1,15 @@
-![](image.png "Masked E-mails Chrome Extension")
+![](hero.png "Photo by Marko Sellenriek")
+<font size="1">Photo by Marko Sellenriek https://unsplash.com/photos/RiGlmlpiwPw
+</font>
 
-# Masked Emails Offline Chrome Extension
+# ✉️ Masked Emails Offline Chrome Extension
 
 Privacy first Masked Emails Chrome Extension that works offline. Just set-up your own domain and start generating e-mails.
 
 More about how to set-up own masked e-mails system you can read on
 https://medium.com/@lukaszsliwa/how-to-build-own-hidden-e-mails-masked-e-mails-system-in-your-own-domain-afcecf963d9a
+
+![](image.png "Masked E-mails Chrome Extension")
 
 ## Set-up own masked e-mails (hidden e-mails) in Protonmail
 
