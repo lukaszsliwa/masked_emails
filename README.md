@@ -1,3 +1,5 @@
+![](/home/lukasz/Sources/masked_emails/image.png "Masked E-mails Chrome Extension")
+
 # Masked Emails Offline Chrome Extension
 
 Privacy first Masked Emails Chrome Extension that works offline. Just set-up your own domain and start generating e-mails.
