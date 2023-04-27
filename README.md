@@ -1,4 +1,4 @@
-![](/home/lukasz/Sources/masked_emails/image.png "Masked E-mails Chrome Extension")
+![](image.png "Masked E-mails Chrome Extension")
 
 # Masked Emails Offline Chrome Extension
 
