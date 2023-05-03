@@ -17,8 +17,8 @@ Then you can generate e-mails in your domain easily.
 
 ## How to install
 
-You can try to find in the Chrome Webstore https://chrome.google.com/webstore/category/extensions or download the latest main branch,
-unzip the package, visit Manage Extensions in your web browser. Switch to development mode and Load unpacked.
+You can try to find in the Chrome Webstore https://chrome.google.com/webstore/detail/masked-e-mails/pkdihhkhbapmbgeodojkbcieldoafnek
+or download the latest main branch, unzip the package, visit Manage Extensions in your web browser. Switch to development mode and Load unpacked.
 
 For better experience you can pin the extension.
 
